@@ -1,0 +1,143 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(253, 251, 251),
+    rgb(250, 218, 148)
+  );
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+table {
+  text-align: center;
+  font-size: 1vmax;
+  font-weight: bold;
+  width: auto;
+  margin: 0;
+}
+
+.Box-container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.Box__left {
+  max-width: 450px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  background-image: linear-gradient(to right bottom, cyan, rgb(255, 153, 241));
+  border-radius: 20px;
+}
+
+#Box__left__select {
+  text-align: left;
+}
+
+.Box__right {
+  position: static;
+  margin: 10% 0;
+  padding: 10px 1%;
+  background-image: linear-gradient(to right bottom, cyan, rgb(255, 153, 241));
+  border-radius: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden_1 {
+  display: none;
+}
+
+.avg {
+  margin-left: 75%;
+  text-align: right;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.avg h6 {
+  font-size: 1.2vmax;
+}
+
+@media (max-width: 190px) {
+  #submit {
+    width: 100%;
+    font-size: 2.35vmax;
+  }
+
+  #reset {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 2.35vmax;
+  }
+}
+
+
+.grantchart{
+  display: block;
+}
+
+.process{
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  border: 3px solid black;
+  display: inline-block;
+}
+
+.process p{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.firstblock
+{
+  display: flexbox;
+  align-items: center;
+  flex-direction: row;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  border: 2px solid black;
+}
+.box{ 
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+}
+.box--left{
+  display: inline-block;
+  width: 55px;
+}
+.box--right{
+  display: inline-block;
+  width: 60px;
+}
+.center{
+  justify-content: center;
+}
+
